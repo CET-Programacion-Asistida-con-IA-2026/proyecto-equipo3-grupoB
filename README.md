@@ -1,26 +1,21 @@
-## Grupo A/B - Equipo {numero}
+## Grupo B Equipo 3 Igualdad de género
 _Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
-
-```⚠️ Dejar la opción correcta entre Grupo A (Grupo de 17 a 19hs) y Grupo B (Grupo de 19 a 21hs) y agregar el número de equipo ⚠️```
 
 En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+### Entrega 1
+#### Definición de la problemática
+La problemática que queremos abordar es la desigualdad de género que hay dentro del ámbito laboral y educativo haciendo referencia a la ODS número 5.
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+#### Explicación de la solución tecnológica
+Nuestro grupo propone una página web llamada "Pioneras" con enfoque de difusión sobre la actividad laboral de mujeres líderes. 
+Centrar el proyecto en una página web de divulgación sobre mujeres líderes en diferentes áreas: Ciencia, Tecnología, Ingeniería, Arte y Matemáticas. Pioneras combinadas con mujeres en la actualidad, a lo mejor la presidenta de alguna empresa o una mujer que se destaque en su trabajo.
 
-🎨 Moodboard
+#### 🎨 Moodboard
+Ver en la imagen "Pioneras moodboard y maqueta.jpg"
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
-
-
-**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
+### Entrega 2 (Final)
+Se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
 
 💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
 ```
