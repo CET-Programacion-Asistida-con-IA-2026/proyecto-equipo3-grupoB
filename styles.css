@@ -200,36 +200,62 @@ main {
 
 /* ---------- Frase del día (ficha tipo ticket) ---------- */
 .frase-del-dia {
-  position: relative;
-  background: var(--color-blanco);
-  border: 1px dashed var(--color-linea);
-  border-radius: var(--radio);
-  padding: 2.25rem 2rem;
-  text-align: center;
-  margin-bottom: 3.5rem;
+    padding: 2rem 1rem;
+    display: block;
 }
 
-.frase-del-dia .label {
-  font-family: var(--fuente-sello);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.75rem;
-  color: var(--color-acento);
-  margin-bottom: 1rem;
+.tarjeta-frase {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: var(--color-blanco);
+    border-radius: var(--radio);
+    padding: 3.5rem 2.5rem 2.5rem 2.5rem;
+    box-shadow: 0 4px 15px rgba(34, 28, 43, 0.06);
+    text-align: center;
 }
 
-.frase-del-dia blockquote {
-  margin: 0 0 1.25rem;
+.tarjeta-frase .label {
+    font-family: var(--fuente-sello);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.75rem;
+    color: var(--color-acento);
+    margin-bottom: 1rem;
 }
 
-.frase-del-dia blockquote p {
-  font-family: var(--fuente-display);
-  font-size: 1.4rem;
-  font-style: italic;
-  color: var(--color-tinta);
-  max-width: 40rem;
-  margin: 0 auto 0.75rem;
+.comilla-apertura {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-size: 7rem;
+    font-family: Georgia, serif;
+    color: rgba(34, 28, 43, 0.07);
+    line-height: 1;
 }
+
+#frase-texto {
+    margin: 0 0 1.25rem;
+}
+
+#frase-texto p {
+    font-family: var(--fuente-display);
+    font-size: 1.4rem;
+    font-style: italic;
+    color: var(--color-tinta);
+    line-height: 1.4;
+    margin: 0;
+}
+
+#frase-texto footer {
+    font-family: var(--fuente-sello);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.85rem;
+    color: var(--color-tinta-suave);
+    margin-top: 0.75rem;
+}
+
 
 .frase-del-dia footer {
   font-family: var(--fuente-sello);
