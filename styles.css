@@ -346,6 +346,8 @@ main {
   object-fit: contain;
   background-color: #000000;
   display: block;
+  padding: 10px 0; 
+  box-sizing: border-box; 
   filter: grayscale(15%);
   transition: transform 400ms ease, filter var(--transicion);
 }
