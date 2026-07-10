@@ -326,7 +326,8 @@ main {
 .img-tarjeta {
   width: 100%;
   height: 220px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #000000;
   filter: grayscale(15%);
   transition: transform 400ms ease, filter var(--transicion);
 }
