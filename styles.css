@@ -328,6 +328,7 @@ main {
   height: 220px;
   object-fit: contain;
   background-color: #000000;
+  display: block;
   filter: grayscale(15%);
   transition: transform 400ms ease, filter var(--transicion);
 }
