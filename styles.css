@@ -226,11 +226,11 @@ main {
 
 .comilla-apertura {
     position: absolute;
-    top: 15px;
-    left: 30px;
+    top: -5px;
+    left: 25px;
     font-size: 7rem;
     font-family: Georgia, serif;
-    color: rgba(34, 28, 43, 0.07);
+    color: rgba(34, 28, 43, 0.18);
     line-height: 1;
 }
 
