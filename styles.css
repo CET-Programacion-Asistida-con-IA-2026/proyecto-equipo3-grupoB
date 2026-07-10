@@ -161,24 +161,41 @@ main {
   border-bottom: 1px solid var(--color-linea);
   margin-bottom: 3rem;
 }
-
 .ods {
-  background: var(--color-blanco);
-  border: 1px dashed var(--color-oro);
-  border-radius: var(--radio);
-  padding: 1.5rem;
-  text-align: center;
+    text-align: center;
 }
 
-.ods-img { width: 96px; margin: 0 auto 0.75rem; }
+/* Nuestra nueva tarjeta link interactiva */
+.tarjeta-ods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: var(--color-blanco);
+    border-radius: var(--radio);
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(34, 28, 43, 0.05);
+    transition: transform 300ms ease, box-shadow 300ms ease;
+}
 
-.ods p {
-  margin: 0;
-  font-family: var(--fuente-sello);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-size: 0.8rem;
-  color: var(--color-tinta-suave);
+.ods-img { 
+    width: 96px; 
+    margin: 0 auto 0.75rem; 
+}
+
+.tarjeta-ods span {
+    margin: 0;
+    font-family: var(--fuente-sello);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.8rem;
+    color: var(--color-tinta-suave);
+}
+
+.tarjeta-ods:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(34, 28, 43, 0.12);
 }
 
 /* ---------- Frase del día (ficha tipo ticket) ---------- */
